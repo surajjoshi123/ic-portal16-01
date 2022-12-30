@@ -1,0 +1,29 @@
+.externalcontainer{
+    margin-top: -129px;
+}
+.externalimg{
+    width: 310px;
+    height: 227px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px rgb(35, 35, 35,0.3);
+    margin-top: 148px;
+}
+.external-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.external-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+.external-header h1 span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	opacity: 0.7;
+}

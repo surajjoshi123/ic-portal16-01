@@ -1,0 +1,130 @@
+.todayhis {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.todayhisimg {
+  max-width: 100%;
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  margin-left: 180px;
+  box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%)
+}
+
+.todayhisimage {
+  flex-basis: 50%;
+  order: 2;
+}
+
+.todaytext {
+  color: #0a0a0a;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: justify;
+  /* margin-left: -100px; */
+  width: 86%;
+}
+
+.todayhiscaption {
+  color: #000;
+  font-size: 32px;
+}
+
+.todayhisheader {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  margin-top: -544px;
+  margin-left: 680px;
+
+}
+
+.todayhisheader h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 1.3;
+  margin-top: 30px;
+
+}
+
+.todayhisheader h1 span {
+  display: block;
+  padding: 0 0 0.6em 0.1em;
+  font-size: 60%;
+  opacity: 0.7;
+}
+
+/* Did you know btn */
+
+/*Explore btn*/
+.todayhisbtn {
+
+  border-radius: 40px;
+  /* background-color: #8b2266; */
+  /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+  background: linear-gradient(to right, #912569 0%, #d34156 100%);
+
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  width: 202px;
+  height: 69px;
+  /* transition: all 0.3s; */
+  cursor: pointer;
+
+  margin-left: 0%;
+  margin-top: 1em;
+  box-shadow: 4px 4px 8px rgb(0 0 0 / 25%), 2px 4px 8px rgb(0 0 0 / 22%)
+}
+
+.todayhisbtn:hover {
+
+  border-radius: 40px;
+  /* background-color: #8b2266; */
+  /* background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%); */
+  background: linear-gradient(to bottom right, #8b2266 25%, #ff6699 100%);
+
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+  width: 202px;
+  height: 69px;
+  /* transition: all 0.3s; */
+  cursor: pointer;
+  margin-left: 0%;
+  margin-top: 1em;
+  box-shadow: 0px 0px 0px rgb(0 0 0 / 25%), 1px 2px 8px rgb(0 0 0 / 22%)
+}
+
+.todayhisbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.todayhisbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.todayhisbtn:hover span {
+  padding-right: 25px;
+}
+
+.todayhisbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}

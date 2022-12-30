@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+
+    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- <link rel="stylesheet" href="assets/css/darknlight.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
+
+		<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <title>Indian Culture V2.0</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="./assets/js/snap.svg-min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script>
+  (function() {
+	let mina ="";
+	let Snap ="";
+	function init() {
+		var speed = 250,
+
+			easing = mina.easeinout;
+
+		[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+			var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+				pathConfig = {
+					from : path.attr( 'd' ),
+					to : el.getAttribute( 'data-path-to' )
+				};
+
+			el.addEventListener( 'mouseenter', function() {
+				path.animate( { 'path' : pathConfig.to }, speed, easing );
+			} );
+
+			el.addEventListener( 'mouseleave', function() {
+				path.animate( { 'path' : pathConfig.from }, speed, easing );
+			} );
+		} );
+	}
+
+	init();
+
+})();
+</script>
+   
+  </body>
+</html>

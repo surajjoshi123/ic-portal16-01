@@ -1,0 +1,173 @@
+/*input[type="text"] {
+    width: 300px;
+    /* background-color: transparent; */
+    /* background-color: rgba(248, 245, 242, 0.3); */
+
+    /* transition: width 1s ease-in-out; */
+  /*  transition: 0.5s all;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    
+} */
+
+input[type="text"]:focus {
+
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+} */
+
+.itemeffect{
+background-color: #ffffff;
+width: 50%;
+height: 50px;
+
+}
+.itemeffect:hover{
+    background-color: #f5f5f5;
+    text-align: center;
+    color:#8b2266;
+    width: 100%;
+    transition: width 0.4s;
+    font-weight: normal;
+
+    }
+.mainheader{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+
+}
+.scroller{
+
+    overflow-y: scroll;
+    width: 100%;
+}
+.scroller::-webkit-scrollbar{
+    display: none;
+}    
+.sidepan{
+
+    transition: 0.5s all;
+
+}
+.govindi{
+    max-width: 100%;
+}
+
+
+
+/* search bar*/
+
+/* .button {
+	display: inline-block;
+	margin: 4px 2px;
+	background-color: #444;
+	font-size: 14px;
+	padding-left: 32px;
+	padding-right: 32px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+} */
+
+/* .button:hover {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+} */
+
+.searchcon {
+	position: relative;
+	display: inline-block;
+	/* margin: 4px 2px; */
+	height: 55px;
+	width: 55px;
+	vertical-align: bottom;
+	margin-left: 890px;
+}
+
+.mglass {
+	display: inline-block;
+	pointer-events: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+
+.searchbutton {
+	position: absolute;
+	font-size: 52px;
+	width: 100%;
+	margin-left: 8px;
+	padding: 0px;
+    margin-top: -5px;
+}
+
+.search:focus + .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	background-color: white;
+	color: black;
+}
+
+.search {
+	position: absolute;
+	left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+	background-color: white;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+	z-index: 10;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 363px; /* Bar width+1px */
+	padding: 0 16px 0 0;
+}
+
+.expandright {
+	left: auto;
+	right: 49px; /* Button width-1px */
+}
+
+.expandright:focus {
+	padding: 0 0 0 16px;
+}
+
+/* .y-mandatory{
+    padding-top: 75px;
+    
+    } */
+
+	@media screen and (max-width: 600px){
+		.search  {
+			position: absolute;
+			float: left;
+			width: 100%;
+		}
+	}

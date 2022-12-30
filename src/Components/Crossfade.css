@@ -1,0 +1,52 @@
+.parent-container{
+  position: relative;
+  width:100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  }
+.homecover h2{
+  z-index: 2;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  /* text-transform:lowercase; */
+  color: rgb(255, 255, 255);
+  position: absolute;
+  width: 30%;
+  left: 200px;
+  top: 150px;
+  
+  }
+  @media only screen and (max-width: 800px) {
+    .homecover h2{
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      width: 20%;
+      top: 50px;
+      left: 100px;
+    }
+  }
+  /* style={{width:'100%', marginTop:'0px', filter:'brightness(0.4)'}} */
+
+  /* playbtn */
+  .playnpause{
+    display: block;
+    position: relative;
+    margin-top: -80px;
+    float: right;
+    padding: 20px;
+    
+  }
+  .play-pause {
+	 display: inline;
+	 width: auto;
+	 height: 50px;
+   color: beige;
+	 padding: 15px;
+	 margin: 0;
+	 border: 0;
+	 outline: 0;
+	 background:transparent;
+	 position: relative;
+}
